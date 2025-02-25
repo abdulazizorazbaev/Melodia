@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E6C2310-8D19-4846-BBA0-9B12B96A3328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melodia.WebApi", "src\Melodia.WebApi\Melodia.WebApi.csproj", "{C1A21035-1973-4CA0-A936-B83E83E602B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melodia.Domain", "src\Melodia.Domain\Melodia.Domain.csproj", "{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melodia.DataAccess", "src\Melodia.DataAccess\Melodia.DataAccess.csproj", "{2CCA94B3-197A-44BC-9C08-BC5E0F42616C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melodia.Service", "src\Melodia.Service\Melodia.Service.csproj", "{55721679-E47D-4230-A7F1-116302086E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1A21035-1973-4CA0-A936-B83E83E602B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A21035-1973-4CA0-A936-B83E83E602B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A21035-1973-4CA0-A936-B83E83E602B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A21035-1973-4CA0-A936-B83E83E602B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCA94B3-197A-44BC-9C08-BC5E0F42616C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCA94B3-197A-44BC-9C08-BC5E0F42616C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCA94B3-197A-44BC-9C08-BC5E0F42616C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCA94B3-197A-44BC-9C08-BC5E0F42616C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55721679-E47D-4230-A7F1-116302086E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55721679-E47D-4230-A7F1-116302086E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55721679-E47D-4230-A7F1-116302086E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55721679-E47D-4230-A7F1-116302086E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1A21035-1973-4CA0-A936-B83E83E602B1} = {6E6C2310-8D19-4846-BBA0-9B12B96A3328}
+		{77DB2ED8-B8B5-4504-BD65-B1E243D60AFD} = {6E6C2310-8D19-4846-BBA0-9B12B96A3328}
+		{2CCA94B3-197A-44BC-9C08-BC5E0F42616C} = {6E6C2310-8D19-4846-BBA0-9B12B96A3328}
+		{55721679-E47D-4230-A7F1-116302086E33} = {6E6C2310-8D19-4846-BBA0-9B12B96A3328}
+	EndGlobalSection
+EndGlobal
